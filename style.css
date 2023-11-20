@@ -1,0 +1,7 @@
+@font-face {
+    font-family: inter;
+    src: 
+        url(font/inter-variablefont_slntwght-webfont.woff2) format("woff2"),
+        url(font/inter-variablefont_slntwght-webfont.woff) format("woff");
+    font-weight: normal;
+}
