@@ -15,10 +15,11 @@
         </div>
     </div>
     <div class="right-side">
-        <h1>Mulai Perjalanan Baru</h1>
+        <!-- <h1>Mulai Perjalanan Baru</h1> -->
         <form action="#" method="post">
-            <div class="row-container">
-                <ul>
+            <fieldset>
+                <h1 id="form-title">Mulai Perjalanan Baru</h1>
+                <ul class="row-container">
                     <li>
                         <label for="firstName">Nama Pertama:</label>
                         <input type="text" name="firstName" id="firstName">
@@ -28,9 +29,7 @@
                         <input type="text" name="lastName" id="lastName">
                     </li>
                 </ul>
-            </div>
-            <div class="row-container">
-                <ul>
+                <ul class="row-container">
                     <li>
                         <label for="userMail">E-Mail:</label>
                         <input type="email" name="userMail" id="userMail">
@@ -40,9 +39,7 @@
                         <input type="tel" name="userPhone" id="userPhone">
                     </li>
                 </ul>
-            </div>
-            <div class="row-container">
-                <ul>
+                <ul class="row-container">
                     <li>
                         <label for="userPassword">Kata Sandi:</label>
                         <input type="password" name="userPassword" id="userPassword">
@@ -52,12 +49,12 @@
                         <input type="password" name="confirmPassword" id="confirmPassword">
                     </li>
                 </ul>
-            </div>
+                <div class="submit-container">
+                    <button name="submitRegistration">Daftar Akun</button>
+                    <div class="to-login">Sudah punya akun..? <a href="#">MASUK</a></div>
+                </div>
+            </fieldset>
         </form>
-        <div class="submit-container">
-            <button name="submitRegistration">Daftar Akun</button>
-            <div class="to-login">Sudah punya akun..? <a href="#">MASUK</a></div>
-        </div>
     </div>
 </body>
 </html>
