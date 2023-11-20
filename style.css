@@ -57,6 +57,17 @@ table {
 
 :root {
     font-size: 62.5%;
+    --background-main: #dedcde;
+    --background-secondary: #dcd3c9;
+    --font-color: #212529;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-main: #121212;
+        --background-secondary: #30004a;
+        --font-color: #f8f9fa;
+    }
 }
 
 * {
