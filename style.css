@@ -58,7 +58,6 @@ table {
 :root {
     font-family: inter;
     font-size: 62.5%;
-    --right-width: 65%;
     --background-main: #dedcde;
     --background-secondary: #dcd3c9;
     --font-color: #212529;
@@ -82,10 +81,11 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
 
     > .left-side {
         background-color: var(--background-secondary);
-        width: calc(100% - var(--right-width));
+        width: 39rem;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -94,7 +94,7 @@ body {
         gap: 3rem;
 
         > .logo-header {
-            font-size: min(3vw, 3.4rem);
+            font-size: 3.7rem;
         }
 
         > .logo {
@@ -105,18 +105,20 @@ body {
             gap: 1rem;
 
             > .logo-img {
-                width: min(50%, 50rem);
+                width: 30rem;
                 border-radius: 100%;
             }
 
             > .logo-caption {
-                font-size: min(1.3vw, 1.9rem);
+                font-size: 1.85rem;
+                text-align: center;
             }
         }
     }
 
     > .right-side {
         background-color: var(--background-main);
-        width: var(--right-width);
+        width: 39rem;
+        flex-grow: 1;
     }
 }
