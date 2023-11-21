@@ -20,7 +20,7 @@
                 <h1 id="form-title">New Account</h1>
                 <ul class="row-container">
                     <li>
-                        <label for="firstName">First Name:</label>
+                        <label for="firstName">First Name: <span class="req">*</span></label>
                         <input
                             type="text"
                             name="firstName"
@@ -39,7 +39,7 @@
                 </ul>
                 <ul class="row-container">
                     <li>
-                        <label for="userMail">E-Mail:</label>
+                        <label for="userMail">E-Mail: <span class="req">*</span></label>
                         <input
                             type="email"
                             name="userMail"
@@ -48,7 +48,7 @@
                             required>
                     </li>
                     <li>
-                        <label for="userPhone">Phone Number:</label>
+                        <label for="userPhone">Phone Number: <span class="req">*</span></label>
                         <input
                             type="tel"
                             name="userPhone"
@@ -59,7 +59,7 @@
                 </ul>
                 <ul class="row-container">
                     <li>
-                        <label for="userPassword">Password:</label>
+                        <label for="userPassword">Password: <span class="req">*</span></label>
                         <input
                             type="password"
                             name="userPassword"
@@ -67,9 +67,10 @@
                             placeholder="Must have at least 6 characters"
                             minlength="6"
                             required>
+                        <p><span class="req">*</span> - Required field</p>
                     </li>
                     <li>
-                        <label for="confirmPassword">Confirm Password:</label>
+                        <label for="confirmPassword">Confirm Password: <span class="req">*</span></label>
                         <input
                             type="password"
                             name="confirmPassword"
