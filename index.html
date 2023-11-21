@@ -15,38 +15,68 @@
         </div>
     </div>
     <div class="right-side">
-        <!-- <h1>Mulai Perjalanan Baru</h1> -->
         <form action="#" method="post">
             <fieldset>
                 <h1 id="form-title">New Account</h1>
                 <ul class="row-container">
                     <li>
                         <label for="firstName">First Name:</label>
-                        <input type="text" name="firstName" id="firstName" placeholder="Sam">
+                        <input
+                            type="text"
+                            name="firstName"
+                            id="firstName"
+                            placeholder="Sam"
+                            required>
                     </li>
                     <li>
                         <label for="lastName">Last Name:</label>
-                        <input type="text" name="lastName" id="lastName" placeholder="Altman">
+                        <input
+                            type="text"
+                            name="lastName"
+                            id="lastName"
+                            placeholder="Altman">
                     </li>
                 </ul>
                 <ul class="row-container">
                     <li>
                         <label for="userMail">E-Mail:</label>
-                        <input type="email" name="userMail" id="userMail" placeholder="sam@microsoft.com">
+                        <input
+                            type="email"
+                            name="userMail"
+                            id="userMail"
+                            placeholder="sam@microsoft.com"
+                            required>
                     </li>
                     <li>
                         <label for="userPhone">Phone Number:</label>
-                        <input type="tel" name="userPhone" id="userPhone" placeholder="08123456789">
+                        <input
+                            type="tel"
+                            name="userPhone"
+                            id="userPhone"
+                            placeholder="08123456789"
+                            required>
                     </li>
                 </ul>
                 <ul class="row-container">
                     <li>
                         <label for="userPassword">Password:</label>
-                        <input type="password" name="userPassword" id="userPassword" placeholder="Must have at least 6 characters">
+                        <input
+                            type="password"
+                            name="userPassword"
+                            id="userPassword"
+                            placeholder="Must have at least 6 characters"
+                            minlength="6"
+                            required>
                     </li>
                     <li>
                         <label for="confirmPassword">Confirm Password:</label>
-                        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Must have at least 6 characters">
+                        <input
+                            type="password"
+                            name="confirmPassword"
+                            id="confirmPassword"
+                            placeholder="Must have at least 6 characters"
+                            minlength="6"
+                            required>
                     </li>
                 </ul>
                 <div class="submit-container">

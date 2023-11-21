@@ -170,6 +170,10 @@ body {
                         outline: none;
                         border-bottom: 0.1rem solid var(--font-color);
                     }
+
+                    > input:invalid {
+                        border-bottom: 0.1rem solid red;
+                    }
                 }
             }
 
