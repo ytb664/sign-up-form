@@ -134,11 +134,12 @@ body {
                 font-size: 4rem;
             }
 
-            > .row-container {
-                display: flex;
-                gap: 10rem;
-                justify-content: space-between;
-                flex-wrap: wrap;
+            > ul {
+                display: grid;
+                grid-template-columns: 32rem 32rem;
+                grid-template-rows: 5.6rem 5.6rem 8rem;
+                row-gap: 5rem;
+                column-gap: 8rem;
     
                 > li {
                     display: flex;
