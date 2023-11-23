@@ -136,7 +136,7 @@ body {
 
             > ul {
                 display: grid;
-                grid-template-columns: 32rem 32rem;
+                grid-template-columns: min(20vw, 32rem) min(20vw, 32rem);
                 grid-template-rows: 5.6rem 5.6rem 8rem;
                 row-gap: 5rem;
                 column-gap: 8rem;
@@ -156,7 +156,7 @@ body {
                         border: none;
                         border-bottom: 0.1rem solid var(--font-color);
                         box-sizing: border-box;
-                        width: 32rem;
+                        width: min(20vw, 32rem);
                         height: 2.8rem;
                         padding: 0.5rem;
                         border-radius: 0.5rem;
